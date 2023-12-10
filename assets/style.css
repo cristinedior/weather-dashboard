@@ -17,9 +17,55 @@ body {
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
-
-  div.forecast-day {
-    background-color: blue;
-
+   #search-section {
+    margin-bottom: 20px;
+  }
+   #search-form {
+    display: flex;
+    gap: 10px;
+  }
+   #city-input {
+    flex: 1;
+    padding: 8px;
+  }
+   button {
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+   button:hover {
+    background-color: #555;
+  }
+   #current-weather,
+  #forecast {
+    margin-bottom: 20px;
+  }
+   h2 {
+    color: #333;
+  }
+   #history-list {
+    list-style-type: none;
+    padding: 0;
+  }
+   #history-list li {
+    margin-bottom: 5px;
+    background-color: darkgreen;
+    color: #fff;
+    padding: 5px;
+    max-width: 100px;   
+  }
+   #history-list li:hover {
+    text-decoration: underline;
+  }
+   .forecast-day {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #afa5a5;
+  }
+   .forecast-day img {
+    max-width: fit-content;
   }
  
