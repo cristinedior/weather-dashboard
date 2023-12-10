@@ -43,7 +43,11 @@ THEN I am again presented with current and future conditions for that city
 
 Deployed Site: 
 
-screenshot here.
+Screenshot of current weather + 5-day forecast:
+![127 0 0 1_5500_prework-study-guide_prework-study-guide_weather-dashboard_index html](https://github.com/cristinedior/weather-dashboard/assets/148567509/a223cc33-e2f6-4464-b7aa-6ac7807a1481)
+
+Screenshot of city search history
+![127 0 0 1_5500_prework-study-guide_prework-study-guide_weather-dashboard_index html (1)](https://github.com/cristinedior/weather-dashboard/assets/148567509/b5c4b4ab-2e8f-433c-9137-a85cc817606a)
 
 ## License
 This Study Guide Web Application is licensed under the [MIT License](link-to-license). You are free to use, modify, and distribute it for educational purposes.
