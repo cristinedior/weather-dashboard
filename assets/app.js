@@ -15,10 +15,38 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 
- //need the history list
- //add event listener to history list
- //add local storage for search history and recall
+  historyList.addEventListener('click', function (e) {
+    if (e.target.tagName === 'LI') {
+      const cityName = e.target.textContent;
+      getWeatherData(cityName);
+    }
+  });
+  function getWeatherData(cityName) {
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${apiKey}&units=imperial`;
+    fetch(url)
+      .then(function (response) {
+        return response.json();
+      })
+      .then(function (data) {
+        if (data.cod === 200) {
+          addToHistory(cityName);
+          renderCurrentWeather(data);
+          renderForecast(data);
+        } else {
+          alert(data.message);
+        }
+      });
+  }
+
+  function addToHistory(cityName)
+  function renderCurrentWeather(data)
+  function renderForecast(data)
+  function renderHistory()
+
+  function loadHistory()
+
+  function getWeatherData()
+
  //'get weather data' in specs listed on module homework
  //^^ city, date, temperature, an icon, humidity, wind
  //5 day listing of forecast with above specs
- 
