@@ -41,7 +41,7 @@ THEN I am again presented with current and future conditions for that city
 
 ## Screenshot of Weather Dashboard for Current and 5-Day Forecast Deployment
 
-Deployed Site: 
+Deployed Site: https://cristinedior.github.io/weather-dashboard/
 
 Screenshot of current weather + 5-day forecast:
 ![127 0 0 1_5500_prework-study-guide_prework-study-guide_weather-dashboard_index html](https://github.com/cristinedior/weather-dashboard/assets/148567509/a223cc33-e2f6-4464-b7aa-6ac7807a1481)
