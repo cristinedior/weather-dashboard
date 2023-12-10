@@ -69,3 +69,12 @@ body {
     max-width: fit-content;
   }
  
+@media screen and (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+
+    #city-input {
+        flex: 2; 
+    }
+}
